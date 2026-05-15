@@ -3,50 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Biblioteca Digital</title>
+    <title>Biblioteca de Física - Gabriela Jiménez</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; text-align: center; padding: 20px; color: #333; }
-        h1 { color: #1a73e8; margin-bottom: 30px; }
-        .lista { max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
-        .libro { display: flex; align-items: center; justify-content: flex-start; margin: 10px 0; padding: 12px; background: #1a73e8; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: transform 0.2s; font-size: 0.9em; }
-        .libro:hover { background: #1557b0; transform: scale(1.02); }
-        .libro span { margin-right: 12px; font-size: 1.2em; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; text-align: center; }
+        .contenedor { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        p { color: #7f8c8d; }
+        .grid-libros { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; margin-top: 30px; }
+        .btn-libro { display: block; padding: 12px; background: #3498db; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: 0.3s; font-size: 14px; }
+        .btn-libro:hover { background: #2980b9; transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        .footer { margin-top: 40px; font-size: 12px; color: #bdc3c7; }
     </style>
 </head>
 <body>
-    <h1>📚 Mi Biblioteca de Física</h1>
-    <div class="lista">
-        <p>Selecciona un tema para estudiar:</p>
-        
-        <a class="libro" href="libros/01 Análisis dimensional.pdf" target="_blank"><span>📕</span> 01 Análisis dimensional</a>
-        <a class="libro" href="libros/02 Análisis vectorial.pdf" target="_blank"><span>📕</span> 02 Análisis vectorial</a>
-        <a class="libro" href="libros/03 Cinemática I - MRU - MRUV.pdf" target="_blank"><span>📕</span> 03 Cinemática I - MRU - MRUV</a>
-        <a class="libro" href="libros/04 Cinemática II - MVCL - MPCL.pdf" target="_blank"><span>📕</span> 04 Cinemática II - MVCL - MPCL</a>
-        <a class="libro" href="libros/05 Análisis de gráficas del movimiento mecánico.pdf" target="_blank"><span>📕</span> 05 Análisis de gráficas del movimiento</a>
-        <a class="libro" href="libros/06 Movimiento Circunferencial.pdf" target="_blank"><span>📕</span> 06 Movimiento Circunferencial</a>
-        <a class="libro" href="libros/07 Estática (Efraín Tarazona).pdf" target="_blank"><span>📕</span> 07 Estática (Efraín Tarazona)</a>
-        <a class="libro" href="libros/07 Estática (Marcoantonio Salvador).pdf" target="_blank"><span>📕</span> 07 Estática (Marcoantonio Salvador)</a>
-        <a class="libro" href="libros/08 Dinámica.pdf" target="_blank"><span>📕</span> 08 Dinámica</a>
-        <a class="libro" href="libros/09 Gravitación Universal.pdf" target="_blank"><span>📕</span> 09 Gravitación Universal</a>
-        <a class="libro" href="libros/10 Trabajo, energía y potencia.pdf" target="_blank"><span>📕</span> 10 Trabajo, energía y potencia</a>
-        <a class="libro" href="libros/11 Cantidad de Movimientos Impulso Choques.pdf" target="_blank"><span>📕</span> 11 Cantidad de Movimiento e Impulso</a>
-        <a class="libro" href="libros/12 Oscilaciones MAS.pdf" target="_blank"><span>📕</span> 12 Oscilaciones MAS</a>
-        <a class="libro" href="libros/13 Ondas Mecánicas.pdf" target="_blank"><span>📕</span> 13 Ondas Mecánicas</a>
-        <a class="libro" href="libros/14 Hidrostática.pdf" target="_blank"><span>📕</span> 14 Hidrostática</a>
-        <a class="libro" href="libros/15 Calor.pdf" target="_blank"><span>📕</span> 15 Calor</a>
-        <a class="libro" href="libros/16 Termodinámica.pdf" target="_blank"><span>📕</span> 16 Termodinámica</a>
-        <a class="libro" href="libros/17 Electrostática.pdf" target="_blank"><span>📕</span> 17 Electrostática</a>
-        <a class="libro" href="libros/18 Electrodinámica.pdf" target="_blank"><span>📕</span> 18 Electrodinámica</a>
-        <a class="libro" href="libros/19 Condensadores.pdf" target="_blank"><span>📕</span> 19 Condensadores</a>
-        <a class="libro" href="libros/20 Electromagnetismo.pdf" target="_blank"><span>📕</span> 20 Electromagnetismo</a>
-        <a class="libro" href="libros/21 Ondas Electromagnéticas.pdf" target="_blank"><span>📕</span> 21 Ondas Electromagnéticas</a>
-        <a class="libro" href="libros/21.pdf" target="_blank"><span>📕</span> 21</a>
-        <a class="libro" href="libros/22 Óptica.pdf" target="_blank"><span>📕</span> 22 Óptica</a>
-        <a class="libro" href="libros/23 Física Moderna.pdf" target="_blank"><span>📕</span> 23 Física Moderna</a>
 
+    <div class="contenedor">
+        <h1>📚 Mi Biblioteca Digital de Física</h1>
+        <p>Honduras - Promo 2026</p>
+
+        <div class="grid-libros">
+            <a class="btn-libro" href="libros/01 Análisis dimensional.pdf" target="_blank">01 Análisis Dimensional</a>
+            <a class="btn-libro" href="libros/02 Análisis vectorial.pdf" target="_blank">02 Análisis Vectorial</a>
+            <a class="btn-libro" href="libros/04_Cinematica_P1.pdf" target="_blank">04 Cinemática Parte 1</a>
+            <a class="btn-libro" href="libros/04_Cinematica_P2.pdf" target="_blank">04 Cinemática Parte 2</a>
+            <a class="btn-libro" href="libros/05_Graficas_P1.pdf" target="_blank">05 Gráficas Parte 1</a>
+            <a class="btn-libro" href="libros/05_Graficas_P2.pdf" target="_blank">05 Gráficas Parte 2</a>
+            <a class="btn-libro" href="libros/06_Circunferencial_P1.pdf" target="_blank">06 M. Circunferencial P1</a>
+            <a class="btn-libro" href="libros/06_Circunferencial_P2.pdf" target="_blank">06 M. Circunferencial P2</a>
+            <a class="btn-libro" href="libros/07_Estatica_B_P1.pdf" target="_blank">07 Estática B Parte 1</a>
+            <a class="btn-libro" href="libros/07_Estatica_B_P2.pdf" target="_blank">07 Estática B Parte 2</a>
+            <a class="btn-libro" href="libros/15_Calor_P1.pdf" target="_blank">15 Calor Parte 1</a>
+            <a class="btn-libro" href="libros/15_Calor_P2.pdf" target="_blank">15 Calor Parte 2</a>
+            <a class="btn-libro" href="libros/21_material.pdf" target="_blank">21 Material de Apoyo</a>
+            <a class="btn-libro" href="libros/22_Optica_P1.pdf" target="_blank">22 Óptica Parte 1</a>
+            <a class="btn-libro" href="libros/22_Optica_P2.pdf" target="_blank">22 Óptica Parte 2</a>
+            <a class="btn-libro" href="libros/Cinematica_Parte1.pdf" target="_blank">Cinemática General P1</a>
+            <a class="btn-libro" href="libros/Cinematica_Parte2.pdf" target="_blank">Cinemática General P2</a>
+        </div>
+
+        <div class="footer">
+            Diseñado por Gabriela Jiménez - Estudiante de Informática
+        </div>
     </div>
-    <footer style="margin-top: 20px; font-size: 0.8em; color: #777;">
-        Creado por Gabriela Jiménez
-    </footer>
+
 </body>
 </html>
